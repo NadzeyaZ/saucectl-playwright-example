@@ -2,7 +2,7 @@ apiVersion: v1alpha
 kind: playwright
 sauce:
   region: eu-central-1
-  concurrency: 10 # Controls how many suites are executed at the same time.
+  concurrency: 1 # Controls how many suites are executed at the same time.
   metadata:
     tags:
       - e2e
